@@ -9,3 +9,67 @@
     margin: 0 auto;
     padding: 5px;
 }
+
+header.main {
+    max-height: 50px;
+    margin-bottom: 23px;;
+    margin-top: 10px;
+}
+
+.ul-list li {
+    display: inline;
+    padding: 0 20px;
+}
+
+.ul-list {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-home {
+    background-image: url("/assets/hero-area.jpg");
+    height: 580px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-span {
+    font-family: Shadow Into Light Two, cursive;
+    font-weight: 100;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.home-span-2 {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 8px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+
+.icon-links {
+    margin-top: 40px;
+ 
+}
+
+.icon {
+    border-radius: 60%;
+    padding: 0 40px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
