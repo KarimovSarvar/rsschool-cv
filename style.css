@@ -5,13 +5,14 @@
 }
 
 .wrapper {
-    max-width: 1300px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 5px;
+    background-color: #f7f3f3;
 }
 
 header.main {
-    max-height: 50px;
+    max-height: 65px;
     margin-bottom: 23px;;
     margin-top: 10px;
 }
@@ -19,6 +20,12 @@ header.main {
 .ul-list li {
     display: inline;
     padding: 0 20px;
+}
+
+.header-list {
+    font-family: Source Sans Pro,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .ul-list {
@@ -47,6 +54,7 @@ p.home {
     font-weight: 100;
     font-size: 50px;
     color: rgb(255, 255, 255);
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 
 .home-span-2 {
@@ -72,4 +80,72 @@ p.home {
 
 .icon:hover {
     transform: scale(1.1);
+    box-shadow: 0 15px 20px rgba(79, 79, 79, 0.4);
 }
+
+.phone-button {
+    border: none;
+    margin-top: 30px;;
+}
+
+.phone {
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+    border-radius: .3em;
+}
+.phone:hover {
+    background: #0c955e;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: white;
+    transform: translateY(-7px);
+  }
+
+  .hero-about {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 110px;
+  }
+
+  .about-avatar {
+    background-image: url("/assets/avatar.jpg");
+    background-size: cover;
+    height: 580px;
+    width: 500px;
+    margin-left: 63px;
+    margin-right: 60px;
+    box-shadow: 0px 0px 34px -7px #000000;
+    border-radius: 10px;
+  }
+
+  .about-text {
+      font-family: Source Sans Pro, sans-serif;
+      font-size: 22px;
+      max-width: 600px;
+      color: #666666;
+      margin-right: 180px;
+      margin-top: 80px;
+      text-align: left;
+  }
+ 
+  .p-text {
+    margin-bottom: 50px;
+  }
+
+  ul.about-info li {
+      margin-bottom: 10px;
+      list-style-type: none;
+  }
+
+  span.info-title {
+      color:#000000;
+      font-weight: bold;
+      width: 120px;
+      display: inline-block;
+  }
