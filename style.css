@@ -28,6 +28,16 @@ header.main {
     font-weight: bold;
 }
 
+.list {
+    color: #000000;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.list:hover {
+    color: rgb(40, 127, 219);
+}
+
 .ul-list {
     display: flex;
     justify-content: center;
@@ -75,7 +85,7 @@ p.home {
 .icon {
     border-radius: 60%;
     padding: 0 40px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .icon:hover {
@@ -152,7 +162,7 @@ p.home {
 
   .hero-skills {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
     
   }
 
@@ -170,6 +180,7 @@ p.home {
       font-family: Source Sans Pro, sans-serif;
       font-weight: bold;
       color: #666666;
+    
   }
   .hero-skills-heading {
   margin-top: 70px;
@@ -183,4 +194,44 @@ p.home {
     font-size: 38px;
     color: #666666;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.code-example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.example-heading {
+    font-family: Source Sans Pro, sans-serif;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    font-size: 38px;
+    color: #666666;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.example {
+    font-family: Source Sans Pro, sans-serif;
+    border: 1px solid white;
+    width: 400px;
+    background-color: white;
+    margin-top: 2%;
+    box-shadow: 0px 0px 4px 1px #C4DAFF;
+}
+
+.hero-education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.education-p {
+    padding-top: 15px;
+}
+
+.education {
+    margin: 0 10px;
+    font-family: Source Sans Pro, sans-serif;
 }
