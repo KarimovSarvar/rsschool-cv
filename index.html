@@ -27,15 +27,14 @@
       </header>
       <main class="hero">
           <div class="hero-home" id="home">
-            <p class="home">
+            <div class="home">
               <h2 class="home-span"> Hi! My name is</h2>
               <h1 class="home-span-2"> Karimov Sarvar</h1>
-              <h2
-               class="home-span">I am front-end developer</h2>
-            </p>
+              <h2 class="home-span">I am front-end developer</h2>
+            </div>
             <div class="icon-links">
-                <a href="https://github.com/KarimovSarvar/rsschool-cv"> <img src="/assets/git_icon_black.png" class="icon" alt="git icon" height="50px" weight="50px"> </a>
-                <a href="https://myaccount.google.com/?utm_source=account-marketing-page&utm_medium=go-to-account-button&pli=1"> <img src="/assets/google_icon.png" class="icon" alt="google icon" height="50px" weight="50px"> </a>
+                <a href="https://github.com/KarimovSarvar/rsschool-cv"> <img src="/assets/git_icon_black.png" class="icon" alt="git icon" height="50"> </a>
+                <a href="https://myaccount.google.com/?utm_source=account-marketing-page&utm_medium=go-to-account-button&pli=1"> <img src="/assets/google_icon.png" class="icon" alt="google icon" height="50"> </a>
             </div>
             <div class="phone-button">
                 <a href="tel:+77766111144" class="phone">+7 (776) 611-11-44</a>
@@ -85,14 +84,16 @@
         <div class="code-example" id="example">
             <h2 class="example-heading">Example</h2>
             <pre class="example">
+                <code>
             const strongPassword = (password) => {
                 const length = password.length;
-                return length > 4 && length < 15;
+                return length &gt; 4 && length &lt; 15;
               };
               
               strongPassword('qwerty'); // true
               strongPassword('qwerty1234'); // true
               strongPassword('zxcvbnmasdfghjkqwertyui'); // false
+                </code>
             </pre>
         </div>
         <div class="hero-project" id="project">
