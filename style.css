@@ -54,7 +54,7 @@ header.main {
 }
 
 .hero-home {
-    background-image: url("/assets/hero-area.jpg");
+    background-image: url("assets/hero-area.jpg");
     height: 580px;
     background-size: cover;
     display: flex;
