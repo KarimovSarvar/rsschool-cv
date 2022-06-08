@@ -134,7 +134,7 @@ header.main {
   }
 
   .about-avatar {
-    background-image: url("/assets/avatar.jpg");
+    background-image: url("assets/avatar.jpg");
     background-size: cover;
     height: 580px;
     width: 100%;
